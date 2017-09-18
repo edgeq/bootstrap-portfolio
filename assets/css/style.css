@@ -6,6 +6,10 @@
 }*/
 
 /* portfolio page */
+html,
+body {
+    height: 100%
+}
 
 .work {
   position: relative;
@@ -42,13 +46,26 @@
   overflow: hidden;
 }
 
+#bg-3 {
+  background: url(images/congruent_outline.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+
  .bg-4 { 
     background-color: #2f2f2f;
     color: #ffffff;
+    border-top: 8px solid #777;
+    z-index: 99;
 }
 
 footer {
+  z-index: 99;
   padding: 30px 0;
+  margin-top: 10px;
   clear: both;
   font-size: 12px;
   color: #fff;
@@ -56,7 +73,7 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #777;
-  position: absolute;
+  position: relative;
   bottom: 0;
   display: block;
   
