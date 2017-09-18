@@ -8,9 +8,8 @@
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 </head>
 
@@ -18,55 +17,67 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapsed" data-target="#myNavbar">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
 				<a class="navbar-brand" href="#">EQ</a>
 			</div>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		
 		<div class="container">
 			<h1>Contact Me</h1>
 			<div class="row">
 				<div class="col-md-8">
 
-			<form>
-				<div class="form-group">
-					<label for="name">Name address:</label>
-					<input type="name" class="form-control" id="name">
-				</div>
-				<div class="form-group">
-					<label for="email">Password:</label>
-					<input type="email" class="form-control" id="email">
-				</div>
-				<div class="form-group">
-					<label for="Message">Message:</label>
-					<input type="text" class="form-control input-lg" id="Message">
+					<form>
+						<div class="form-group">
+							<label for="name">Name address:</label>
+							<input type="name" class="form-control" id="name">
+						</div>
+						<div class="form-group">
+							<label for="email">Password:</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="form-group">
+							<label for="Message">Message:</label>
+							<textarea class="form-control" rows="6" input type="textarea" class="form-control input-lg" id="Message"></textarea>
 
+
+						</div>
+						<button type="submit" class="btn btn-default btn-info	">Submit</button>
+					</form>
 				</div>
-				<button type="submit" class="btn btn-default btn-info	">Submit</button>
-			</form>
-			</div>
-						<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3>Connect with me</h3>
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3>Connect with me</h3>
+						</div>
+						<div class="panel-body">
+							<a href="https://github.com/edgeq" target="_blank">
+								<img src="assets/images/github-128.png" class="img-thumbnail" alt="GitHub" style="width:100px;" /></a>
+								<a href="https://www.linkedin.com/in/equintanilla/" target="_blank"><img src="assets/images/linkedin-128.png" class="img-thumbnail" alt="LinkedIn" style="width:100px;" /></a>
+								<a href="https://stackoverflow.com/users/8360675/edge-quintanilla?tab=profile" target="_blank"><img src="assets/images/stackoverflow-128.png" class="img-thumbnail" alt="Stack Overflow" style="width:100px;" /></a>
+							</div>
+						</div>
 					</div>
-					<div class="panel-body">
-						<a href="https://github.com/edgeq" target="_blank">
-						<img src="assets/images/github-128.png" class="img-thumbnail" alt="GitHub" style="width:100px;" /></a>
-						<a href="https://www.linkedin.com/in/equintanilla/" target="_blank"><img src="assets/images/linkedin-128.png" class="img-thumbnail" alt="LinkedIn" style="width:100px;" /></a>
-						<a href="https://stackoverflow.com/users/8360675/edge-quintanilla?tab=profile" target="_blank"><img src="assets/images/stackoverflow-128.png" class="img-thumbnail" alt="Stack Overflow" style="width:100px;" /></a>
-					</div>
-				</div>
+				</div>	
 			</div>
-			</div>	
 		</div>
+	<footer class="container-fluid bg-4 text-center col-md-12">
+						<div class="container">
+							<p>© 2017 - Edge Quintanilla <a href="#"></a></p> 					</div>
+					  
+					</footer>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
